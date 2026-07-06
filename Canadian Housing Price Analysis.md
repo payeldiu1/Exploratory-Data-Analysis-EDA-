@@ -31,3 +31,5 @@ Data gathering from https://www.kaggle.com/datasets/yuliiabulana/canada-housing?
 - Clean dataset ready for analysis.  
 - Visualizations (histograms, scatter plots, heatmaps).  
 - Insights report highlighting key factors and regional differences.
+
+Script Link: https://colab.research.google.com/drive/13lfCWMED5cFlAdlOM4lw9hGBIQTaXSvP?usp=sharing
