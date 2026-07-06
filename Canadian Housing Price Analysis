@@ -11,6 +11,7 @@ A real estate company wants to answer:
 ## Steps
 1. **Data Collection**  
    - Gather housing data (price, area, bedrooms, bathrooms, region, etc.).
+Data gathering from https://www.kaggle.com/datasets/yuliiabulana/canada-housing?resource=download&select=data_on.csv
 
 2. **Data Cleaning**  
    - Handle missing values, duplicates, and outliers.
