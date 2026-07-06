@@ -1,9 +1,37 @@
-#Project 1: Canadian Housing Price Analysis using Python
-Objective
+# Project 1: Canadian Housing Price Analysis using Python
 
-Business Problem:
+## Objective
+Understand the factors influencing housing prices across Canada and identify regional differences.
 
-A real estate company wants to understand:
+## Business Problem
+A real estate company wants to answer:
+- **What factors influence house prices?**
+- **Which provinces/cities are more expensive?**
 
-What factors influence house prices?
-Which provinces/cities are more expensive?
+## Steps
+1. **Data Collection**  
+   - Gather housing data (price, area, bedrooms, bathrooms, region, etc.).
+
+2. **Data Cleaning**  
+   - Handle missing values, duplicates, and outliers.
+
+3. **Exploratory Data Analysis (EDA)**  
+   - **Price Distribution**: Histogram and log-transformed plots.  
+   - **Regional Analysis**: Average prices by province/city.  
+   - **Feature Relationships**: Correlation heatmaps, scatter plots (Area vs Price, Beds vs Price).  
+   - **Outlier Detection**: Boxplots for price extremes.
+
+4. **Insights**  
+   - Provinces like **[Ontario](ca://s?q=Ontario_housing_price_analysis)** show higher average prices.  
+   - **[Bathrooms](ca://s?q=Correlation_between_bathrooms_and_price)** and **[bedrooms](ca://s?q=Correlation_between_bedrooms_and_price)** moderately influence price.  
+   - Outliers (luxury homes or data errors) distort averages.
+
+5. **Next Steps**  
+   - Encode categorical features (e.g., property type, view).  
+   - Build predictive models (linear regression, decision trees).  
+   - Compare model accuracy across regions.
+
+## Deliverables
+- Clean dataset ready for analysis.  
+- Visualizations (histograms, scatter plots, heatmaps).  
+- Insights report highlighting key factors and regional differences.
