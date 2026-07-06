@@ -20,7 +20,6 @@ Data gathering from https://www.kaggle.com/datasets/yuliiabulana/canada-housing?
    - **Price Distribution**: Histogram and log-transformed plots.  
    - **Regional Analysis**: Average prices by province/city.  
    - **Feature Relationships**: Correlation heatmaps, scatter plots (Area vs Price, Beds vs Price).  
-   - **Outlier Detection**: Boxplots for price extremes.
 
 4. **Key takeaways**  
    **Summarize findings:
