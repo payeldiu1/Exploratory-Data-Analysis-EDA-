@@ -22,15 +22,11 @@ Data gathering from https://www.kaggle.com/datasets/yuliiabulana/canada-housing?
    - **Feature Relationships**: Correlation heatmaps, scatter plots (Area vs Price, Beds vs Price).  
    - **Outlier Detection**: Boxplots for price extremes.
 
-4. **Insights**  
-   - Provinces like **[Ontario](ca://s?q=Ontario_housing_price_analysis)** show higher average prices.  
-   - **[Bathrooms](ca://s?q=Correlation_between_bathrooms_and_price)** and **[bedrooms](ca://s?q=Correlation_between_bedrooms_and_price)** moderately influence price.  
-   - Outliers (luxury homes or data errors) distort averages.
-
-5. **Next Steps**  
-   - Encode categorical features (e.g., property type, view).  
-   - Build predictive models (linear regression, decision trees).  
-   - Compare model accuracy across regions.
+4. **Key takeaways**  
+   **Summarize findings:
+   -Price distribution is right-skewed.
+   -Certain regions show higher average prices.
+   -Strong correlation between property size and price.
 
 ## Deliverables
 - Clean dataset ready for analysis.  
