@@ -81,3 +81,5 @@ A telecom company wants to predict which customers are likely to leave (churn) s
 ## ✅ Conclusion
 Correlation analysis highlights **Tenure** as the strongest predictor of churn.  
 A predictive model can be built using tenure, monthly charges, and demographic features to identify at-risk customers and design targeted retention strategies.
+
+Script: https://colab.research.google.com/drive/1aAbzICplr3eH4idGwD2DPbW59YV-Xw3d#scrollTo=LQOLj8XX-wLw
