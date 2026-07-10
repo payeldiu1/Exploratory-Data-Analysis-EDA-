@@ -167,6 +167,8 @@ These insights can help support future decisions regarding content acquisition, 
 * Seaborn
 * colab Notebook
 
+  Script: https://colab.research.google.com/drive/19x0GTHTSOpDB6Z9JjS43stXEclfKfu9g#scrollTo=3hemghxV9irV
+
 ---
 
 # Author
