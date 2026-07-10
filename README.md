@@ -57,7 +57,7 @@ This portfolio highlights my ability to:
 
 ### Development Tools
 
-* Jupyter Notebook
+* Google colab Notebook
 * Git
 * GitHub
 * VS Code
