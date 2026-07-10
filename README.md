@@ -143,12 +143,12 @@ Data-Analysis-with-Python/
 │
 ├── 01-Canadian-Housing-Price-Analysis/
 ├── 02-Customer-Churn-Prediction/
-├── 03-Credit-Card-Fraud-Detection/
+├── 03-Netflix-Content-Analysis/
 ├── 04-Sales-Performance-Dashboard/
 ├── 05-Employee-Attrition-Analysis/
 ├── 06-Healthcare-Data-Analysis/
 ├── 07-Canadian-Job-Market-Analysis/
-├── 08-Netflix-Content-Analysis/
+├── 08-Credit-Card-Fraud-Detection/
 ├── 09-Bike-Sharing-Demand-Prediction/
 ├── 10-Flight-Delay-Analysis/
 ├── 11-Energy-Consumption-Forecasting/
