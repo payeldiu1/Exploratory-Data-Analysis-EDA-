@@ -76,13 +76,6 @@ This portfolio highlights my ability to:
 |  06 | Healthcare Data Analysis        | Predict disease risk and analyze patient data       | Healthcare Analytics, Machine Learning |
 |  07 | Canadian Job Market Analysis    | Analyze job postings, salaries, and skill demand    | Web Scraping, NLP, Visualization       |
 
-|  09 | Bike Sharing Demand Prediction  | Forecast bike rental demand                         | Time Series, Regression                |
-|  10 | Flight Delay Analysis           | Identify factors influencing flight delays          | Data Analysis, Classification          |
-|  11 | Energy Consumption Forecasting  | Forecast electricity demand                         | Time Series Forecasting                |
-|  12 | Stock Market Analysis           | Analyze historical stock prices and trends          | Financial Analytics, Time Series 
-|  03 | Credit Card Fraud Detection     | Detect fraudulent financial transactions            | Imbalanced Data, Classification |
-
----
 
 # 📈 Data Analysis Workflow
 
@@ -148,12 +141,6 @@ Data-Analysis-with-Python/
 ├── 05-Employee-Attrition-Analysis/
 ├── 06-Healthcare-Data-Analysis/
 ├── 07-Canadian-Job-Market-Analysis/
-├── 08-Credit-Card-Fraud-Detection/
-├── 09-Bike-Sharing-Demand-Prediction/
-├── 10-Flight-Delay-Analysis/
-├── 11-Energy-Consumption-Forecasting/
-├── 12-Stock-Market-Analysis/
-│
 ├── requirements.txt
 └── README.md
 ```
