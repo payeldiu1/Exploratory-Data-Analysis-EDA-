@@ -78,7 +78,7 @@ The analysis includes:
 
 ## 1. Movies dominate the Netflix catalog
 
-Movies account for the majority of Netflix's library, indicating that the platform primarily focuses on film content while maintaining a smaller collection of TV Shows.
+Movies make up most of Netflix's catalog while maintaining a smaller collection of TV Shows.
 
 ---
 
