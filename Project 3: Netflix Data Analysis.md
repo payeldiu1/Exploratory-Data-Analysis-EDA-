@@ -137,10 +137,6 @@ Other highly represented genres include:
 
 Among listed directors, **Raúl Campos**  have the highest number of Movies and TV Shows available on Netflix.
 
-**Business Value**
-
-* Frequently collaborating directors can be valuable partners for future productions.
-
 ---
 
 # Conclusion
