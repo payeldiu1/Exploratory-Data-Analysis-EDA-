@@ -70,16 +70,17 @@ This portfolio highlights my ability to:
 | --: | ------------------------------- | --------------------------------------------------- | -------------------------------------- |
 |  01 | Canadian Housing Price Analysis | Analyze housing trends and predict house prices     | EDA, Regression, Feature Engineering   |
 |  02 | Customer Churn Prediction       | Predict customers likely to leave a telecom company | Classification, Machine Learning       |
-|  03 | Credit Card Fraud Detection     | Detect fraudulent financial transactions            | Imbalanced Data, Classification        |
+|  03 | Netflix Content Analysis        | Explore trends in movies and TV shows               | EDA, Visualization                     |
 |  04 | Sales Performance Dashboard     | Analyze sales performance and profitability         | Business Intelligence, Visualization   |
 |  05 | Employee Attrition Analysis     | Identify factors contributing to employee turnover  | HR Analytics, Classification           |
 |  06 | Healthcare Data Analysis        | Predict disease risk and analyze patient data       | Healthcare Analytics, Machine Learning |
 |  07 | Canadian Job Market Analysis    | Analyze job postings, salaries, and skill demand    | Web Scraping, NLP, Visualization       |
-|  08 | Netflix Content Analysis        | Explore trends in movies and TV shows               | EDA, Visualization                     |
+
 |  09 | Bike Sharing Demand Prediction  | Forecast bike rental demand                         | Time Series, Regression                |
 |  10 | Flight Delay Analysis           | Identify factors influencing flight delays          | Data Analysis, Classification          |
 |  11 | Energy Consumption Forecasting  | Forecast electricity demand                         | Time Series Forecasting                |
-|  12 | Stock Market Analysis           | Analyze historical stock prices and trends          | Financial Analytics, Time Series       |
+|  12 | Stock Market Analysis           | Analyze historical stock prices and trends          | Financial Analytics, Time Series 
+|  03 | Credit Card Fraud Detection     | Detect fraudulent financial transactions            | Imbalanced Data, Classification |
 
 ---
 
