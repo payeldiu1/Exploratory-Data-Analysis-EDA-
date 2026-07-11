@@ -47,18 +47,57 @@ A telecom company wants to predict which customers are likely to leave (churn) s
 - Handled missing values, duplicates, and outliers to ensure data quality.
 
 ### 3. Exploratory Data Analysis (EDA)
-- **Price Distribution**: Count plots show right-skewed churn distribution.
+- **Churn Distribution**: Count plots show right-skewed churn distribution.
 - **Gender Analysis**: Gender-wise churn distribution examined.
 - **Contract Analysis**: Contract type vs churn distribution analyzed.
 - **Feature Relationships**: Correlation heatmaps used to identify relationships.
 
-#### 🔑 Correlation with Churn
+# Churn Distribution
+
+sns.countplot(x='Churn', data=df)
+
+plt.title('Churn Distribution')
+
+plt.show()
+
+<img width="580" height="455" alt="image" src="https://github.com/user-attachments/assets/65014a60-a63b-4062-9237-445e531e7b59" />
+
+# Gender-wise churn distribution examined
+
+sns.countplot(x='Gender', hue='Churn', data=df)
+
+plt.title('Gender-wise Churn Distribution')
+
+plt.show()
+
+<img width="580" height="455" alt="image" src="https://github.com/user-attachments/assets/09380c8d-000b-4364-b0c1-b474fa8287ed" />
+
+# Contract type vs churn distribution analyzed
+
+sns.countplot(x='Contract', hue='Churn', data=df)
+
+plt.title('Contract-wise Churn Distribution')
+
+plt.show()
+
+<img width="580" height="455" alt="image" src="https://github.com/user-attachments/assets/581f9d6a-01af-4bbe-a24e-186676fb2c7a" />
+
+#### 🔑 Correlation with Churn : Correlation heatmaps used to identify relationships
+
+df.corr(numeric_only=True)["Churn"].sort_values(ascending=False)
+
 | Feature          | Correlation with Churn |
 |------------------|-------------------------|
 | Churn            | 1.000000                |
 | MonthlyCharges   | 0.193356                |
 | SeniorCitizen    | 0.150889                |
 | Tenure           | -0.352229               |
+
+sns.heatmap(df.corr(numeric_only=True), annot=True)
+
+plt.show()
+
+<img width="527" height="418" alt="image" src="https://github.com/user-attachments/assets/82103995-be09-46a4-be6f-4d1fd4cc4485" />
 
 ---
 
