@@ -82,7 +82,7 @@ plt.show()
 
 <img width="580" height="455" alt="image" src="https://github.com/user-attachments/assets/581f9d6a-01af-4bbe-a24e-186676fb2c7a" />
 
-#### 🔑 Correlation with Churn : Correlation heatmaps used to identify relationships
+# 🔑 Correlation with Churn : Correlation heatmaps used to identify relationships
 
 df.corr(numeric_only=True)["Churn"].sort_values(ascending=False)
 
