@@ -66,7 +66,7 @@ The analysis includes:
 * Top content-producing countries
 * Most common content ratings
 * Most popular genres
-* Number of titles added by year
+* Which years had the highest content additions?
 * Content growth over time
 * Top directors
 * Duration analysis
@@ -100,6 +100,45 @@ df["rating"].value_counts().head(10).plot(kind="barh")
 
 <img width="712" height="351" alt="image" src="https://github.com/user-attachments/assets/de895376-28e5-4ccb-bb76-b3f376917506" />
 
+# Most popular genres
+df["listed_in"].value_counts().head(10).plot(kind="barh")
+<img width="908" height="413" alt="image" src="https://github.com/user-attachments/assets/141db160-7048-4a9a-971e-d85a96a0d0c9" />
+
+# Which years had the highest content additions?
+
+plt.figure(figsize=(8,4))
+
+df["year_added"].value_counts().head(10).plot(kind="bar")
+
+<img width="684" height="392" alt="image" src="https://github.com/user-attachments/assets/3778f6c3-a570-48d5-a51e-c9a33cf917e7" />
+
+# Content growth over time
+
+df["release_year"].value_counts().sort_index().plot(kind="line")
+
+<img width="552" height="433" alt="image" src="https://github.com/user-attachments/assets/bb54c1cc-073b-469a-b965-c1944a467052" />
+
+# Top 10 directors
+
+df["director"].value_counts().head(10).plot(kind="barh")
+
+<img width="708" height="413" alt="image" src="https://github.com/user-attachments/assets/5026848f-ef38-4169-9b88-4b35c72f392f" />
+
+# Duration analysis
+
+movies = df[df["type"]=="Movie"]
+
+plt.ylabel('Count')
+
+movies["duration"].value_counts().plot(kind="line")
+
+<img width="571" height="434" alt="image" src="https://github.com/user-attachments/assets/d917e4cc-9d15-4a43-b3f8-2729bc3ebb89" />
+
+#  Release year distribution
+
+df["release_year"].value_counts().sort_index().plot(kind="line")
+
+<img width="552" height="433" alt="image" src="https://github.com/user-attachments/assets/279a6b17-092e-4b0e-a137-5980528e7ca4" />
 
 # Business Insights
 
