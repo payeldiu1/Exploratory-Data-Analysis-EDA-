@@ -60,8 +60,8 @@ plt.show()
 # Correlation Area vs Price, Beds vs Price).
 df.corr(numeric_only=True)["price"].sort_values(ascending=False)
 
-<img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/fffa8c99-bfac-4eb6-8db9-4ed6e9a9192a" />
 
+<img width="297" height="356" alt="image" src="https://github.com/user-attachments/assets/a947e694-b9a6-4a98-8189-c8a3cf333ae0" />
 
 sns.scatterplot(data=df, x="property-beds", y="price", hue="addressRegion")
 
@@ -69,8 +69,7 @@ plt.title("Price vs. Bedrooms by Region")
 
 plt.show()
 
-
-<img width="297" height="356" alt="image" src="https://github.com/user-attachments/assets/a947e694-b9a6-4a98-8189-c8a3cf333ae0" />
+<img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/fffa8c99-bfac-4eb6-8db9-4ed6e9a9192a" />
 
 
 5. **Key takeaways**  
