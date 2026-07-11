@@ -72,11 +72,28 @@ The analysis includes:
 * Duration analysis
 * Release year distribution
 
-#What is the ratio of Movies vs TV Shows?
+# What is the ratio of Movies vs TV Shows?
 
 sns.countplot(data=df, x="type")
 
 <img width="580" height="432" alt="image" src="https://github.com/user-attachments/assets/79485fec-c6a8-45e0-9266-8aa2a436778a" />
+
+# Top 10 countries produce the most Netflix content?
+
+plt.figure(figsize=(8,4))
+plt.title('Top 10 Countries by Content Count')
+plt.xlabel('Country')
+plt.ylabel('Count')
+df["country"].value_counts().head(10).plot(kind="bar")
+
+<img width="704" height="468" alt="image" src="https://github.com/user-attachments/assets/870885c9-2fbc-443d-bfd8-9e4f333b83dc" />
+
+# Most common content ratings
+
+plt.figure(figsize=(8,4))
+df["rating"].value_counts().head(10).plot(kind="barh")
+
+<img width="712" height="351" alt="image" src="https://github.com/user-attachments/assets/de895376-28e5-4ccb-bb76-b3f376917506" />
 
 
 # Business Insights
