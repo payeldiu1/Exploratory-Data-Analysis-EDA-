@@ -73,7 +73,9 @@ The analysis includes:
 * Release year distribution
 
 #What is the ratio of Movies vs TV Shows?
+
 sns.countplot(data=df, x="type")
+
 <img width="580" height="432" alt="image" src="https://github.com/user-attachments/assets/79485fec-c6a8-45e0-9266-8aa2a436778a" />
 
 
