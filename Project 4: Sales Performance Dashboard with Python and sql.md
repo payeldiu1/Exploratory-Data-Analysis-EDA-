@@ -51,7 +51,7 @@ ORDER BY Profit DESC
 | South | $46,749.43 |
 | Central | $39,706.36 |
 
-![Total Profit by Region](charts/01_profit_by_region.png)
+<img width="876" height="584" alt="image" src="https://github.com/user-attachments/assets/40762525-7f88-4373-9ac8-7b04705fc23a" />
 
 *Figure 1. Total Profit by Region — West leads by a wide margin, generating roughly 2.7x the profit of Central, the lowest-performing region.*
 
@@ -81,7 +81,7 @@ ORDER BY Profit DESC
 | Office Supplies | $122,490.80 |
 | Furniture | $18,451.27 |
 
-![Total Profit by Category](charts/02_profit_by_category.png)
+<img width="876" height="637" alt="image" src="https://github.com/user-attachments/assets/b324d41c-0ddc-4396-a090-0c3522e087ed" />
 
 *Figure 2. Total Profit by Category — Technology and Office Supplies together account for the large majority of total profit; Furniture contributes comparatively little.*
 
@@ -111,7 +111,8 @@ ORDER BY Sales DESC
 | Corporate | $0.71M |
 | Home Office | $0.43M |
 
-![Total Sales by Segment](charts/03_sales_by_segment.png)
+<img width="910" height="547" alt="image" src="https://github.com/user-attachments/assets/70858a6b-1e7f-47d6-bf16-fe3dd0b20367" />
+
 
 *Figure 3. Total Sales by Segment — Consumer is the dominant segment, generating more revenue than Corporate and Home Office combined.*
 
@@ -241,7 +242,6 @@ plt.xlabel("Region")
 plt.ylabel("Total Profit")
 plt.show()
 
-<img width="876" height="584" alt="image" src="https://github.com/user-attachments/assets/40762525-7f88-4373-9ac8-7b04705fc23a" />
 
 # region wise profit bar chart from original pandas df
 df_region_profit = df.groupby('Region')['Profit'].sum()
@@ -276,7 +276,6 @@ plt.xlabel("Categories")
 plt.ylabel("Total Profit")
 plt.show()
 
-<img width="876" height="637" alt="image" src="https://github.com/user-attachments/assets/b324d41c-0ddc-4396-a090-0c3522e087ed" />
 
 # Which Segments have the highest sales? 
 result = spark.sql("SELECT Segment, sum(Sales)/1000000 Sales FROM sales group by Segment order by 2 desc")
@@ -299,7 +298,6 @@ plt.xlabel("Total Sales(million)")
 plt.ylabel("Segment ")
 plt.show()
 
-<img width="910" height="547" alt="image" src="https://github.com/user-attachments/assets/70858a6b-1e7f-47d6-bf16-fe3dd0b20367" />
 
 
 #Which products should be promoted or discontinued?
