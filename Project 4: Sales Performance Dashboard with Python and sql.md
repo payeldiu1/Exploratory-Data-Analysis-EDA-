@@ -163,14 +163,16 @@ plt.show()
 
 ## 6. Key Insights
 
-- **Regional gap:** West outperforms every other region in profit; Central lags furthest behind, warranting a review of pricing, discounting, or logistics costs in that region.
-- **Category concentration:** Technology and Office Supplies drive the overwhelming majority of profit. Furniture's low contribution suggests thin margins relative to its likely inventory footprint.
-- **Segment reliance:** The Consumer segment is the primary revenue engine — retention and loyalty efforts here have outsized impact.
-- **Low-velocity products:** Copiers, Machines, and Supplies sell in the lowest volumes and should be evaluated for targeted promotions or phased discontinuation.
+- The West region drives the largest share of profit; Central underperforms and warrants investigation into pricing, discount levels, or logistics costs.
+- Technology and Office Supplies together generate over 93% of total profit — Furniture's contribution is disproportionately small relative to likely inventory investment.
+- The Consumer segment is the dominant revenue source and should anchor marketing and loyalty initiatives.
+- Copiers, Machines, and Supplies have the lowest sales volume and should be evaluated for targeted promotions or phased discontinuation.
+
 
 ## 7. Recommendations
 
-1. Investigate discount and cost structures in the Central and South regions to close the profit gap with West and East.
-2. Reassess Furniture pricing and margins — determine whether shipping, returns, or discounting is eroding profitability.
-3. Pilot bundling or seasonal promotions for Copiers and Machines before considering discontinuation.
-4. Prioritize Consumer-segment marketing and retention given its outsized share of total sales.
+- Investigate discounting practices in the Central and South regions to close the profit gap with West and East.
+- Reassess Furniture pricing and discount strategy — review whether high shipping or return costs are eroding margin.
+- Design targeted promotions (bundling, seasonal discounts) for Copiers and Machines before considering discontinuation.
+- Promotional campaigns should focus on the Consumer segment as the top priority.
+
