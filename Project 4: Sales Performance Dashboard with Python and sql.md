@@ -7,6 +7,5 @@ Business Questions
 What are the total sales, profit, and quantity sold?
 Which regions generate the highest revenue?
 Which product categories are the most profitable?
-Who are the top customers?
-Which months have the highest sales?
+Which Segments have the highest sales?
 Which products should be promoted or discontinued?
