@@ -109,7 +109,11 @@ Projects include a variety of visualizations, such as:
 * Correlation Matrices
 * Time Series Charts
 * Interactive Plotly Visualizations
-* Streamlit Dashboards
+* Streamlit • 📊 Distribution charts (histograms, boxplots) to see spread and outliers
+• 📈 Trend charts (line plots, time series) to observe changes over time
+• 🔗 Relationship charts (scatter plots, correlation heatmaps) to explore variable connections
+• 🧩 Categorical charts (bar charts, pie charts) to compare groups
+
 
 ---
 
