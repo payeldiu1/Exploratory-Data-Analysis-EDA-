@@ -1,0 +1,40 @@
+Project 5: Employee Attrition Analysis with Python
+
+🎯 Business Problem
+
+A company wants to understand employee turnover and identify factors associated with employees leaving the organization.
+
+Business questions
+What percentage of employees have left?
+Which departments have the highest attrition?
+Does salary affect attrition?
+Does overtime affect attrition?
+Does job satisfaction affect attrition?
+Does employee age or tenure affect attrition?
+Which factors are most strongly associated with attrition?
+Can we build a model to predict employee attrition?
+
+Dataset
+
+A common portfolio dataset is the IBM HR Analytics Employee Attrition & Performance dataset.
+
+Typical columns include:
+
+Column	Meaning
+Age	Employee age
+Attrition	Yes/No
+BusinessTravel	Travel frequency
+Department	Employee department
+DistanceFromHome	Distance from workplace
+Education	Education level
+JobRole	Employee's role
+JobSatisfaction	Job satisfaction level
+MonthlyIncome	Monthly salary
+OverTime	Whether employee works overtime
+YearsAtCompany	Years with company
+YearsInCurrentRole	Years in current role
+WorkLifeBalance	Work-life balance
+JobLevel	Job level
+EnvironmentSatisfaction	Workplace environment satisfaction
+
+Your target variable is:
