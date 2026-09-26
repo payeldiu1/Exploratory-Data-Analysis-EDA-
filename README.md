@@ -113,7 +113,7 @@ Projects include a variety of visualizations, such as:
 • 📊 Distribution charts (histograms, boxplots) to see spread and outliers
 • 📈 Trend charts (line plots, time series) to observe changes over time
 • 🔗 Relationship charts (scatter plots, correlation heatmaps) to explore variable connections
-• 🧩 Categorical charts (bar charts, pie charts) to compare groups
+• 🧩 Categorical charts (bar charts, pie charts, A count plot is a categorical bar chart ) to compare groups
 
 Distribution: the pattern of all the values in a column, meaning which values are common and which are rare.
 Spread: how much the values vary. Common measures are the range (max − min), standard deviation, and IQR (the middle 50% of the data).
