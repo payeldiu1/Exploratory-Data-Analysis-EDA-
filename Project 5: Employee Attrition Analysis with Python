@@ -38,4 +38,32 @@ WorkLifeBalance	Work-life balance
 JobLevel	Job level
 EnvironmentSatisfaction	Workplace environment satisfaction
 
-Your target variable is:
+Understand the Dataset
+Number of employees
+Number of variables
+Numeric variables
+Categorical variables
+Missing values
+Target variable
+
+Check Missing Values
+df.isnull().sum()
+
+You can also calculate the percentage:
+
+missing_percentage = (
+    df.isnull().sum() / len(df) * 100
+)
+
+missing_percentage.sort_values(ascending=False)
+
+Check Duplicate Employees
+df.duplicated().sum()
+
+If duplicates exist:
+
+df = df.drop_duplicates()
+
+Check the Target Variable
+
+Let's see how many employees left.
