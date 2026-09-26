@@ -115,7 +115,9 @@ Projects include a variety of visualizations, such as:
 • 🔗 Relationship charts (scatter plots, correlation heatmaps) to explore variable connections
 • 🧩 Categorical charts (bar charts, pie charts) to compare groups
 
-
+Distribution: the pattern of all the values in a column, meaning which values are common and which are rare.
+Spread: how much the values vary. Common measures are the range (max − min), standard deviation, and IQR (the middle 50% of the data).
+Outliers: values far from the rest. They can be errors (for example, a salary of 99999999 entered by mistake) or real but rare events (for example, one very large transaction).
 ---
 
 # 📚 Libraries Used
