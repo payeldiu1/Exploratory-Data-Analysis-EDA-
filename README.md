@@ -120,6 +120,13 @@ Spread: how much the values vary. Common measures are the range (max − min), s
 Outliers: values far from the rest. They can be errors (for example, a salary of 99999999 entered by mistake) or real but rare events (for example, one very large transaction).
 ---
 
+Why it matters
+
+Data quality: outliers often reveal entry errors, such as a date of birth of 1800 or an amount of 0.
+Choosing the right statistics: with skewed data, the median is more reliable than the mean.
+Modeling: many ML models are sensitive to outliers and skew, so you may need to transform the data (for example, with a log) or cap extreme values.
+Anomaly detection: in banking, outliers can point to suspicious transactions worth reviewing.
+
 # 📚 Libraries Used
 
 * pandas
